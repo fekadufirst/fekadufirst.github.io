@@ -7,6 +7,9 @@
    margin-right: auto;
     margin-top: -50px;
     font-size: 15px;
+    background-color: beige;
+    border-radius: 5px;
+    width: 200px;
 }
 
 img{
@@ -67,4 +70,7 @@ position: relative;
     position: relative;
     top: 250px;
     right: 120px;
+}
+.short{
+    width: 200px;
 }
