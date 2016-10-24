@@ -272,9 +272,12 @@ position: relative;
    margin-top: -40px;
     float: left;
     font-size: 14px;
-
-   
 }
+    #update{
+   margin-left: 1px;
+   margin-right: -285px;
+ 
+    }
 #small{
     top: 576px;
     right: 27px;
