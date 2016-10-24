@@ -20,6 +20,12 @@
    float:left;
     list-style-type: none;
     font-weight: bold;
+    margin-left: 6px;
+    margin-right: -16px;
+    text-align: center;
+    width: 133px;
+    height: auto;
+    font-size: 23px;
 }
 #hourly{
     margin-top: 390px;
@@ -263,9 +269,9 @@ position: relative;
     position: relative;
    margin-left: 313px;
    margin-right: -285px;
-   margin-top: -20px;
+   margin-top: -40px;
     float: left;
-    font-size: 16px;
+    font-size: 14px;
 
    
 }
