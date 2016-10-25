@@ -20,8 +20,8 @@
    float:left;
     list-style-type: none;
     font-weight: bold;
-    margin-left: 6px;
-    margin-right: -16px;
+    margin-left: 17px;
+    margin-right: -5px;
     text-align: center;
     width: 133px;
     height: auto;
@@ -272,6 +272,7 @@ position: relative;
    margin-top: -40px;
     float: left;
     font-size: 14px;
+    width: 185px;
 }
   
 #small{
