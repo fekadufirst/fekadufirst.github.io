@@ -1,8 +1,23 @@
-#logo{
-    75px;
-}
-#logoImage{
-    
-    
-}       
-    
+  p {
+      text-align: left;
+      text-align: justify;
+      width: 1000px;
+  }
+  
+  body {
+      background-color: darkgray;
+  }
+  
+  h1,
+  h2,
+  h3 {
+      background-color: darkorange;
+  }
+  
+  #head {
+      background-color: chocolate;
+  }
+  
+  #great {
+      background-color: darkgray;
+  }

@@ -8,29 +8,41 @@ html *{
 }
 
 body{
-    font: 20px "times new roman", times, serif;
+    font: 1.25vw "times new roman", times, serif;
     margin: 0;
     padding: 0;
 }
 #wrapper{
-    display: flex;
-    flex-flow: row wrap;
-}
-*/
-.row{
-   overflow: hidden; 
-}
-@media screen and (min-width:500px){
 
-#page-nav, main, #page-aside{
-   float: left;
+   
+ 
+}
+#everything{
+     display: flex;
+    flex-flow: row;
+    flex-flow: ltr;
+    justify-content: center;
+    
     
 }
-#page-nav,
-#page-aside{
-    widows: 25px;
+nav, aside{
+flex: 1 25%;
+}
+
+main{
+    flex: 2 50%;
+}
+nav, main, aside{
+    width: 25%;
+    margin-right: 5%;
+}
+nav{
+    background-color: red;
+    order:
 }
 main{
-    width: 50px;
+    background-color: yellowgreen;
 }
-/*
+aside{
+    background-color: aqua;
+}

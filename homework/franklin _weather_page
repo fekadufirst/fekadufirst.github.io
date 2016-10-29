@@ -4,65 +4,91 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Visitor Analysis and Persona</title>
-	<meta name="viewport" content="width=device-width">
+	<title>Franklin Weather Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="best.css">
 </head>
 
 <body>
-	<div id="wrapper">
-		<header>
-			<h1><!--Add your site name here--></h1>
-		</header>
-		<nav>
-			<p>Navigation Here</p>
-		</nav>
-		<main>
-			<h1>Visitor Analysis and Persona</h1>
-			<!-- ***********************************************
-Use the web site you think did the best job of meeting visitor needs during your 24 hour mobile browsing experience.
-************************************************* -->
-			<h2><!--Put the site name here--></h2>
-
-			<p>URL:
-				<!--Put the site URL here-->
-			</p>
-
-			<section id="analysis">
-
-				<h2>Visitor Analysis</h2>
-				<!--Add paragraphs to address the items in the visitor considerations document-->
-				<p></p>
-
-				<!--Put the screenshot in the img element below-->
-				<figure>
-					<img alt="" src="">
-				</figure>
-			</section>
-			<section id="persona">
-				<h2>Persona</h2>
-				<!--Add paragraphs to address the items in the persona reading to build a persona for this site-->
-				<p></p>
-
-				<!--Put the image of the persona in the img element below-->
-				<figure>
-					<img alt="" src="">
-				</figure>
-			</section>
-
-		</main>
-		<footer>
-			<ul>
-				<li>&copy;2016</li>
-				<li>
-					<!--Add your name here, replacing this comment-->
-				</li>
-				<li>Last Updated:
-					<!-- Put today's date following the colon -->
-				</li>
+<header>
+<nav>
+     <a href="../index.html" title="feakdufrist.github.io" ><img id="logo"  width="75" alt="logo" src="../images/logo.jpeg"></a>
+     <div id="navBar">
+        <a class= "navlink" href="Searchlocation" title="fekadu"> Franklin Weather</a>
+        <a id="out1" class= "navlink" href="Searchlocation" title="fekadu"> Photos & video</a>
+        <a id="out2" class= "navlink" href="Searchlocation" title="fekadu"> Maps</a>
+        <a class= "navlink" href="Searchlocation" title="fekadu"> login</a> 
+     </div>
+    
+     <div id="navser">
+    <ul>
+      <li> <a href="Searchlocation" title="fekadu"> Franklin, ID</a></li> 
+      <li> <a href="Searchlocation" title="fekadu"> Greenville, ID</a></li> 
+      <li> <a href="Searchlocation" title="fekadu"> Springville, ID</a></li> 
+     </ul>
+    </div>
+</nav>
+     </header>
+<main>
+    <h1>Franklin, ID Zip 83237</h1>
+    <div id="allweather">
+    <p class="short"><strong>Sunny &nbsp; 90 F &deg; | 66 F &deg;</strong></p>
+    <div id="sun">
+      <img style="width: 190px" alt="Image of the weather" src="../images/sunnyday">
+    </div>
+        
+        
+ <div id="long">
+     <p>long. -11.803757 lat. 42.011902</p> 
+     <p>Wind. 1 - 5 mph Precip 0 in</p>
+     <p>Dir South West</p>
+     </div>
+     </div>
+        
+        <div id="hourly">
+        <h2 class="data">Twenty four hours temperature forecast in Fahrenheit</h2>
+        <ul id="line">
+             <li>0. 68 &deg;</li> 
+             <li>1. 68 &deg;</li>
+             <li>2. 69 &deg;</li>
+             <li>3. 69 &deg;</li> 
+             <li>4. 69 &deg;</li> 
+             <li>5. 70 &deg;</li> 
+             <li>6. 69F &deg;</li> 
+             <li>7. 72 &deg;</li> 
+             <li>8. 74 &deg;</li> 
+             <li>9. 77 &deg;</li> 
+             <li>10. 79 &deg;</li> 
+             <li>11. 81 &deg;</li>
+             <li>12. 84 &deg;</li> 
+             <li>13. 86 &deg;</li> 
+             <li>14. 88 &deg;</li> 
+             <li>15. 90 &deg;</li> 
+             <li>16. 90 &deg;</li> 
+             <li>17. 85 &deg;</li> 
+             <li>18. 83 &deg;</li> 
+             <li>19. 79 &deg;</li> 
+             <li>20. 74 &deg;</li> 
+             <li>21. 70 &deg;</li> 
+             <li>22. 68 &deg;</li>
+             <li>23. 66 &deg;</li>
+        </ul>
+        </div>
+ <div id="small">
+     <img alt="small screen image" src="../images/small.jpg">
+      <img alt="small screen image" src="../images/medium.jpg">
+      <img alt="small screen image" src="../images/large.jpg">
+ </div>
+                                     
+</main>
+    <footer>
+        <div id="lastinfo">
+           <ul>
+              <li>&copy;2016</li>
+              <li>Fekadu Haile</li>
+              <li>Last Updated:10/15/2016</li>
 			</ul>
-			<p> </p>
-		</footer>
-	</div>
+        </div>
+</footer>
 </body>
-
 </html>
