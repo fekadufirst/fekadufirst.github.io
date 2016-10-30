@@ -3,15 +3,18 @@
     list-style: none;
     font-size: 24px;
     padding-left: 67px;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: center;
     margin-top: -50px;
     justify-content: space-around;
 }
 
 body {
     background-color: deepskyblue;
+}
+p {
+    font-family:inherit;
+    background-color: white;
+    border-radius: 5px;
+
 }
 
 #work {
@@ -65,6 +68,7 @@ body {
     font-size: 23px;
     background-color: beige;
     border-radius: 5px;
+    
 }
 
 .data {
@@ -208,6 +212,7 @@ body {
         margin-right: 430px;
         font-weight: bold;
         text-align: center;
+        
     }
     body {
         background-color: deepskyblue;
