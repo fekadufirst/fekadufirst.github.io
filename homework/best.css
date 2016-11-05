@@ -6,6 +6,9 @@
     margin-top: -50px;
     justify-content: space-around;
 }
+ a{
+        text-decoration: none;
+    }
 
 body {
     background-color: deepskyblue;
@@ -72,13 +75,27 @@ p {
 }
 
 .data {
-    display: none;
+    display: flex;
+    text-align: center;
 }
 
 #hourly {
     display: flex;
-    display: none;
+     flex-wrap: wrap;
+        flex-grow: 1;
+        justify-content: center;
 }
+ #line li {
+        display: flex;
+        float: left;
+        list-style-type: none;
+        margin-left: 6px;
+        margin-right: -16px;
+        width: 186px;
+        height: auto;
+        font-size: 23px;
+        font-weight: bold;
+    }
 
 @media only screen and (min-width:750px) {
     #out1,
@@ -90,6 +107,9 @@ p {
         list-style: none;
         font-size: 31px;
         justify-content: space-around;
+    }
+    a{
+        text-decoration: none;
     }
     #navser {
         display: flex;
@@ -111,6 +131,7 @@ p {
     #green {
         display: flex;
         justify-content: center;
+        font-size: 30px;
     }
     #sun {
         display: flex;
@@ -173,6 +194,9 @@ p {
         justify-content: center;
         justify-content: space-around;
     }
+     a{
+        text-decoration: none;
+    }
     #navser {
         list-style: none;
         align-items: center;
@@ -188,6 +212,8 @@ p {
     #green {
         display: flex;
         justify-content: center;
+        font-weight: bold;
+        font-size: 35px;
     }
     #city {
         display: flex;
@@ -216,6 +242,7 @@ p {
     }
     body {
         background-color: deepskyblue;
+        
     }
     #hourly {
         display: flex;
@@ -226,7 +253,7 @@ p {
     #line li {
         display: flex;
         list-style-type: none;
-        margin-left: 17px;
+        margin-left: 35px;
         margin-right: -5px;
         text-align: center;
         width: 200px;
