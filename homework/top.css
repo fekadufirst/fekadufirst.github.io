@@ -11,11 +11,12 @@
   h1,
   h2,
   h3 {
-      background-color: darkorange;
+      background-color:black;
+      color: white;
   }
   
   #head {
-      background-color: chocolate;
+      background-color:burlywood;
   }
   
   #great {
