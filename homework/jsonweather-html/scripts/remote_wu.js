@@ -36,7 +36,7 @@ console.log(parsed_json);
 var temp_f = Math.round(parseInt(parsed_json['current_observation']['temp_f']));
             
     var state = parsed_json['location']['state'];
-                var summary = parsed_json["current_observation"]["weather"];
+                var summar = parsed_json["current_observation"]["weather"];
                 var sRH = parsed_json["moon_phase"]["sunrise"]["hour"];
                 var sRM = parsed_json["moon_phase"]["sunrise"]["minute"];
                 var sSH = parsed_json["moon_phase"]["sunset"]["hour"];
@@ -45,7 +45,7 @@ var temp_f = Math.round(parseInt(parsed_json['current_observation']['temp_f']));
 
 
                 $("#cityDisplay").text(location + ", " + state);
-                $("#summary").text(summary);
+                $("#summary").text(summar);
                 $("#currentTemp").text(temp_f + "°");
                 $("#add1").text("Sunrise: " + sRH + ":" + sRM);
                 $("#add2").text("Sunset: " + sSH + ":" + sSM + " (military)");
