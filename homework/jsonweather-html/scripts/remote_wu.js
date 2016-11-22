@@ -26,24 +26,23 @@ $(function () {
  
   url : "https://api.wunderground.com/api/e9d989d4d615f0c3/geolookup/conditions/astronomy/q/" + lat + "," + long + ".jsonp",       
   dataType : "jsonp",
-  success : function(parsed_json) {
-console.log(parsed_json);
-  var location = parsed_json['location']['city'];
-  var state = parsed_json['location']['state'];
+  success : function(data) {
+console.log
+  var location = data['location']['city'];
+  var state = data['location']['state'];
   $("#cityDisplay").text(location + "," + state);
       
 
-var temp_f = Math.round(parseInt(parsed_json['current_observation']['temp_f']));
+var temp_f = Math.round(parseInt(data['current_observation']['temp_f']));
             
-    var state = parsed_json['location']['state'];
-                var summar = parsed_json["current_observation"]["weather"];
-                var sRH = parsed_json["moon_phase"]["sunrise"]["hour"];
-                var sRM = parsed_json["moon_phase"]["sunrise"]["minute"];
-                var sSH = parsed_json["moon_phase"]["sunset"]["hour"];
-                var sSM = parsed_json["moon_phase"]["sunset"]["minute"];
-                var moon = parsed_json["moon_phase"]["percenthumidity"];
-
-
+    var state = data['location']['state'];
+        var summar = data["current_observation"]["weather"];
+      var sRH = data["moon_phase"]["sunrise"]["hour"];
+                var sRM = data["moon_phase"]["sunrise"]["minute"];
+                var sSH = data["moon_phase"]["sunset"]["hour"];
+                var sSM = data["moon_phase"]["sunset"]["minute"];
+               
+        
                 $("#cityDisplay").text(location + ", " + state);
                 $("#summary").text(summar);
                 $("#currentTemp").text(temp_f + "°");
@@ -51,6 +50,9 @@ var temp_f = Math.round(parseInt(parsed_json['current_observation']['temp_f']));
                 $("#add2").text("Sunset: " + sSH + ":" + sSM + " (military)");
                 $("#add3").text("Humidity: " + sSH + "%");
                 $("title").prepend(location + ", " + state + " | ");
+
+               
+
 
 
       $("#cover").fadeOut(250);
