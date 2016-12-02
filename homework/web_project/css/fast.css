@@ -1,227 +1,517 @@
-/********************************
-* Default Styles - Mobile First
-********************************/
-
-body {
-	font-family: sans-serif;
-	font-size: 18px;
-	margin: 0;
-	padding: 0;
+@media screen and (max-width:380px) {
+	form {
+	font-size: 1.1em;
+}
 }
 
-body,
-caption,
-th,
-td,
-input,
-textarea,
-select,
-option,
-legend,
-fieldset,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-size-adjust: 0.5;
+@media screen and (max-width:500px) {
+	
+    #logo{
+     margin: -4px;   
+        
+        
+    }
+
+	
+	.poster {
+		display: block;
+		
+	}
+	
+	.pos {
+		display: block;
+		max-width: 100%;
+	}
+	
+	
 }
 
-.wrapper {
-	display: flex;
-	flex-flow: column;
-	flex-wrap: nowrap;
-	padding: .5em;
+* {
+	box-sizing: border-box;
+}
+
+#teammembers {
+		background-color: white;
+	}
+
+.copyright {
+	color: white;
+	padding-left: 20px;
+}
+
+.innercontainer {
+	text-align: center;
+}
+
+.snowmobbutton {
+	padding-left: 3cm;
+}
+.atvbutton {
+	padding-left: 3cm;
+}
+img {
+	max-width: 100%
+}
+
+.section1 {
+	display:inline-block;
+    margin-left: 5px;
+    float: left;
+}
+
+.sectionnew2 {
+	margin-left: 250px;
+	align-content: center;
+}
+#logo {
+	float: left;
+		
+}
+
+.hidden {
+	display: none;
 }
 
 h1 {
-	font-size: 1.05em;
-	/*	line-height: 1.25;*/
+	font-family: monospace;
+	font-size: 3em;
+}
+
+h2 {
+	font-family: monospace;
+	font-size: 2em;
+	text-align: center;
+}
+
+h3 {
+	font-family: monospace;
+	font-size: 1.6em;
+}
+
+p {
+	font-family: monospace;
+	font-size: 1.2em;
+}
+
+#mobilemenu1 {
+	display: none;
+}
+
+.mobilemenu2 {
+	display: none;
+	
 }
 
 
-/*******************************
-* Page Header Styles
-* Background Image
-*******************************/
-
-
-/*	Background Images - use with Small screens */
-
-.page-header {}
-
-
-/*******************************
-* Page Navigation Styles
-*******************************/
-
-.page-nav {
-	background-color: rgb(0, 0, 0);
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	z-index: 100;
+#menu {
+	float: right;
+	height: 70px;
+	
+	
+	display: -webkit-flex; /* Safari */
+    -webkit-justify-content: space-around; /* Safari 6.1+ */
+    display: flex;
+    justify-content: center;
+	flex-wrap:wrap;
 }
-
-.page-nav ul {
-	display: flex;
-	align-items: stretch;
-	height: 2.5em;
+ul {
+    list-style-type: none;
+    border:0;
+	border-color: blue;
 	margin: 0;
-	padding: 0;
-	list-style: none;
+    padding: 0;
+    overflow: hidden;
+    top: 0;
+	left:0px;
+    width: 100%;
+	border: 1px solid #e7e7e7;
+    background-color: #333;
 }
 
-.page-nav li {
-	flex: 1;
+li {
+    float: left;
+	
+	font-family:monospace;
+	font-size: 1.2em;
 	display: flex;
-	justify-content: center;
+    justify-content: center;
+	flex-wrap:wrap;
+	
 }
 
-.page-nav a {
-	text-decoration: none;
-	color: #fff;
-	display: flex;
-	flex: 1;
-	justify-content: center;
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+.fullscreen-bg {
+    position: relative;
+    top: 5px;
+    left: 0;               /* video for all the screen sizes */
+    width: 100%;
+    height: 100%;
+}
+
+
+video {
+    position:relative;
+    z-index:-1;
+}
+
+.section3 {
+    color: rgb(255, 255, 255);
+	z-index:-1;
+    top: 380px;  /* h1 and h2 text infront of video */
+	left: 300px;
+	text-align: center;    
+    position:absolute;
+         
+}
+
+#main-header {
+	
+	display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: flex-end;
+	flex-wrap:wrap;
+	
+}
+
+#second-header {
+	
+	font-size: 1.8em;
+	display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: flex-end;
+	flex-wrap:wrap;
+}
+
+
+.section4 {
+	display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: center;
+	flex-wrap:wrap;
+}
+
+.section5 {
+	
+    margin-left: 20px;
+	padding-left: 70px;
+    float: left;
+}
+
+.sectionnew {
+    
+	margin-left: 200px;
+	display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: center;
+    
+} 
+
+
+
+.hover {
+	background-color: red;
+}
+
+
+.section7 {
+	display: inline-block;
+	position: relative;
+	list-style-type: none;
+    padding-left: 17%;
+ 
+}
+
+.section10 {
+	
+	list-style-type: none;
+    padding-left: 19%;
+}
+
+.sectioneleven{
+	margin-top: 30px;
+	font-family: monospace;
+	font-size: 1.0em;
+}
+
+.section13 {
+	font-family: monospace;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+.section15 {
+	border:0;
+	border-color: blue;
+	margin-top: 150px;
+    padding: 0;
+    overflow: hidden;
+    left:0px;
+	position:relative;
+    	
+    width: 100%;
+	border: 1px solid #e7e7e7;
+    background-color: #333;
+	margin-top: 30px;
+	margin-bottom: 0px;
+}
+
+footer a {
+    display: inline;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width:865px) {
+	
+	#menu {
+		display: none;
+	}
+	
+	.sectionnew {
+		display:none;
+	}
+	.mobilemenu {
+		display: none;
+	}
+	
+	
+	.mobilemenu2 {
+		display: inline-block;
+		width: 1px;
+		height: 1px;
+		position: relative;
+		float: right;
+		margin-right: 100px;
+		margin-top: 20px;
+		
+		
+	}
+	
+	.innercontainer {
 	align-items: center;
+	padding-left: 15px;
+	
+}
+	
+	
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.mobilemenu2:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.mobilemenu2:hover .dropbtn {
+    background-color: #3e8e41;
+}
+	
+	#logo {
+		height: 66px;
+		width: 160px;
+	}
 }
 
 
-/********************************
-* Main Content Styles
-********************************/
+	
+	
 
-.main {
-	font-size: 1em;
-	line-height: 1.25;
-	margin: 0 auto;
+
+#snowmobile_boxes div {
+  display: inline-block;
+  width: 30%;
+	
+}
+
+#snowmobile_boxes {
+	text-align: left;
+	padding-left: 60px;
+}
+
+#atv_boxes div {
+  display: inline-block;
+  width: 29%;
+	
+}
+
+#atv_boxes {
+	text-align: left;
+}
+
+#section6 {
+	display: inline-flex;
+  
+	
+}
+
+#locations_box div {
+	display: inline-block;
+	width: 47%;
+}
+
+#contactus div {
+	font-size: 1.6em;
+}
+
+form {
+	font-size: 1.3em;
+}
+.dropbtn {
+	width: 25px;
+}
+
+.clear-fix:after {
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;   /* reserve */
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 	position: relative;
 }
 
-.featured-image {
-	margin: 1em 0;
-}
-
-.featured-image img {
-	display: block;
-	width: 100%;
-	height: auto;
-}
-
-.image-caption {
-	padding: .25em 1em;
-	font-family: serif;
-	font-size: 80%;
-	background: rgba(0, 0, 0, .1);
-}
-
-.featured-video {
-	display: block;
-	width: 100%;
-	height: auto;
-}
 
 
-/*******************************
-* Page Footer Styles
-*******************************/
 
-.page-footer {
-	background-color: rgba(0, 0, 0, .8);
-	color: #fff;
-	padding: 0 .5em;
-	margin-bottom: 2.5em;
-}
-
- ul {
-	display: flex;
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.page-footer li {
-	flex: auto;
-}
-
-.page-footer p {
-	margin: 0;
-}
-
-.credits {
-	font-size: .8em;
-}
-
-
-/********************************
-* Medium Screen Styles
-* 750px viewport / 18px font = 41.67em
-********************************/
-
-@media (min-width: 41.67em) {
-	body {
-		font-size: 1.25em;
+@media screen and (max-width:865px) {
+	
+	#snowmobile_boxes div {
+		display: inline;
+		width: 100px;
 	}
-	h1 {
-		font-size: 2em;
-		line-height: 1.125;
+	
+  #atv_boxes div {
+		display: inline;
+		width: 100px;
 	}
-	/*	Background Images - Use with medium screens */
-	.page-header {}
-	.page-nav {
-		position: relative;
+	
+	#section6 {
+		display: inline;
+		width: 90px;
 	}
-	.page-nav li {
-		flex: 0 1 20%;
+	
+	#locations_box div {
+	display: inline;
+	
+	
+}
+
+image.history_pic {
+	align-content: center;
+}
+
+custreviews.p {
+	font-size: 1.8em;
+}
+}
+
+
+@media screen and (max-width:961px) {
+		
+	.sectionnew {
+		display:none;
 	}
-	.main {
-		line-height: 1.375;
+	
+	.section5 {
+		display: none;   /* mensshoes */
 	}
-	.featured-image {
-		margin: 0 1em 1em 0;
-		float: left;
-		width: 50%;
+	.hidden {
+		display: block;
+		position: relative;   /* men and women shoes */
+		margin-left: 10px;
+		
 	}
-	.featured-video {
-		float: left;
-		display: inline-block;
-		width: 50%;
+	.section4 {
+	display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: center;    /* available choices */
+	flex-wrap:wrap;
+	}
+	
+	.section6-1 {
+		
+		margin-left: 80px; /* mensshoes img */
+	}
+		
+	#menu {
+		display: none;
+	}
+	
+	#mobilemenu1 {
+	float: right;
+	height: 70px;
+	display: -webkit-flex;
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: center;
+	flex-wrap:wrap;
+	}
+	
+	.section3 {
+    color: rgb(255, 255, 255);
+	z-index:-1;
+    top: 180px;             /* h1 and h2 */
+	left: 140px;
+	text-align: center;    
+    position:absolute;
+         
+}
+	
+	}
+@media screen and (max-width:1170px) {
+	#menu {
 		height: auto;
-		margin: 0 1em 1em 0;
-	}
-	.featured-video+p {
-		clear: both;
-	}
-	.page-footer {
-		margin-bottom: .5em;
 	}
 }
-
-
-/********************************
-* Large Screen Styles
-* 1200px viewport / 18px font = 66.7em
-********************************/
-
-@media (min-width: 66.7em) {
-	body {
-		font-size: 1.5vw;
+@media screen and (max-width:1200px) {
+	#menu {
+		height: auto;
 	}
-	h1 {
-		font-size: 3em;
-		line-height: 1.05;
-	}
-	/*	Background Images - Use with large screens */
-	.page-header {}
-	.page-nav li {
-		flex: 0 1 10%;
-	}
-	.main {
-		max-width: 80%;
-		padding-right: 2em;
-		padding-left: 2em;
-	}
+	
+	
+	
 }
