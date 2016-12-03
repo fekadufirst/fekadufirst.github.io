@@ -52,7 +52,7 @@ function getData(lat, long) {
 
             var state = data['location']['state'];
             var summar = data["current_observation"]["weather"];
-            var high = data['forecast']['simpleforecast']['forecastday']['0']['high']['fahrenheit'];
+            var high = data["forecast"]["simpleforecast"]["forecastday"]["0"]["high"]["fahrenheit"];
             var low = data['forecast']['simpleforecast']['forecastday']['0']['low']['fahrenheit'];
             var sRH = data["moon_phase"]["sunrise"]["hour"];
             var sRM = data["moon_phase"]["sunrise"]["minute"];
