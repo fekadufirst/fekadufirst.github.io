@@ -2,16 +2,36 @@
 	form {
 	font-size: 1.1em;
 }
+    #main-header{
+   margin-top: -91px;
+        font-size: 25px;
+        margin-right: 100px;
+    
+    }
+    #second-header{
+       visibility: hidden;
+    }
 }
 
 @media screen and (max-width:500px) {
 	
     #logo{
      margin: -4px;   
-        
-        
+          
     }
-
+  
+    #second-header{
+       visibility: hidden;
+    }
+#second-header {
+	
+	font-size: 1.8em;
+	display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: flex-end;
+	flex-wrap:wrap;
+}
 	
 	.poster {
 		display: block;
@@ -224,7 +244,9 @@ video {
 .hover {
 	background-color: red;
 }
-
+body {
+    background-color: white;
+}
 
 .section7 {
 	display: inline-block;

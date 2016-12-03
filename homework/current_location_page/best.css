@@ -137,7 +137,7 @@ p {
     #navser {
         display: flex;
         list-style: none;
-        margin: 60px;
+        margin: 20px;
         justify-content: space-around;
         font-size: 30px;
         background-color: beige;
