@@ -511,9 +511,7 @@ form {
 }
 
 @media screen and (max-width:1025px) {
-    #menu {
-        height: auto;
-    }
+  
     .media {
         display: none;
     }
@@ -552,12 +550,11 @@ form {
     }
     #menu {
         float: right;
-        /* Safari */
-        /* Safari 6.1+ */
+       
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        width: 80%;
+    
         padding: 0px;
     }
     .atvmob {}
