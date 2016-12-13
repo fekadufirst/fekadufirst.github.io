@@ -535,9 +535,7 @@ form {
         height: 66px;
         width: 160px;
     }
-     #section6 {
-        margin-left: 100px;
-    }
+   
 }
 
 @media screen and (max-width:1200px) {
@@ -600,7 +598,7 @@ form {
         float: right;
     }
     #section6 {
-        margin-left: 100px;
+        margin-left: 70px;
     }
     .copyright{
         padding-left: 20px;
