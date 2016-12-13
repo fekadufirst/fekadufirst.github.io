@@ -538,7 +538,7 @@ form {
    
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1026px) {
     #menu {
         height: auto;
     }
