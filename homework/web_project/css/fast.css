@@ -593,7 +593,7 @@ form {
         margin-top: 155px;
     }
     .media {
-        float: right;
+       text-align: right;
     }
     .bestbrands {
         float: right;
